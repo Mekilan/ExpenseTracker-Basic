@@ -1,0 +1,81 @@
+.ta-c {
+    text-align: center;
+  }
+  .ht-o-0 {
+    padding: 15px;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+    width: 35%;
+    margin-left: 33%;
+  }
+  .btn-p {
+    padding: 3px 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+  .s-0 {
+    border: 1px solid #5555;
+    padding: 50px;
+    height: 30vh;
+    box-shadow: 0px 0px 15px 0px #888888;
+  }
+  .s-1 {
+    border: 1px solid #5555;
+    padding: 30px;
+    height: 50vh;
+    box-shadow: 0px 0px 15px 0px #888888;
+  }
+  .list-s {
+    list-style: none;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .t-list {
+    overflow-y: auto;
+    height: 280px;
+  }
+  .n-data {
+    color: #555;
+  }
+  li.expenseremove {
+    color: red;
+  }
+  li.expenseadd {
+    color: #56c556;
+  }
+  .error
+  {
+    color: red;
+  }
+  .btn-primary:focus {
+    box-shadow: none;
+}
+.btn-danger:focus {
+    box-shadow: none;
+}
+button:focus {
+    outline: none;
+}
+  /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
