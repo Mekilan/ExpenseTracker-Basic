@@ -4,16 +4,16 @@ import moment from "moment";
 import { idText } from "typescript";
 
 interface IExpenseProps {
-  lastexpense: any;
+  lastexpense: number;
   callback: any;
 }
 
 const ExpenseManage: React.FC<IExpenseProps> = ({ lastexpense, callback }) => {
-  const [amount, setAmount] = useState<any>(null);
+  const [amount, setAmount] = useState<number>(0);
   const [error, setError] = useState<string>("");
 
   const addClick = () => {
-    if (amount === null || isNaN(amount)) {
+    if (isNaN(amount)) {
       setError("Please enter the expense amount value");
       setTimeout(() => {
         setError("");
@@ -44,7 +44,7 @@ const ExpenseManage: React.FC<IExpenseProps> = ({ lastexpense, callback }) => {
   };
   
   const removeClick = () => {
-    if (amount === null || isNaN(amount)) {
+    if (isNaN(amount)) {
       setError("Please enter the expense amount value");
       setTimeout(() => {
         setError("");
